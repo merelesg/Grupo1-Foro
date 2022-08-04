@@ -5,6 +5,14 @@
     margin: 0;
 	padding: 0;
 }
+tittle { color: #960202;
+    padding: 0px;
+    text-decoration: none;
+    margin: 0px;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1cm;
+}
 
 header {
 	color: rgb(95, 237, 209);
@@ -56,7 +64,7 @@ h1{
 
 }
 .subforo-tittle{
-    background-color: #2b9402;
+    background-color: #049204;
     padding: 5px;
     border-radius: 5px;
     margin: 4px;
@@ -79,8 +87,11 @@ h1{
 }
 .subforo-icon{
     font-size: 45px;
-
 }
+
+
+
+
 /*para celulares*/
 @media screen y (max-width: 460){
     .container{
@@ -115,3 +126,7 @@ h1{
     font-size: 18px;
    }
 }
+.#{
+    margin: 15px;
+    padding: 10px;
+
