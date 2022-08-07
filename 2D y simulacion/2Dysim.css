@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+	padding: 0;
+}
+tittle { color: #cfc5c5;
+    padding: 0px;
+    text-decoration: none;
+    margin: 0px;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1cm;
+}
+
+header a {
+	color: #fff;
+	text-decoration: none;
+}
+nav{
+	max-width: 900px;
+	margin: auto;
+	background-color:none;
+	font-size: 20px;
+	margin-top: 50px;
+}
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+}
+.menu-horizontal > li:hover{
+	background-color:  #04920460;
+}
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+	background-color: rgba(0, 0, 0, .5);
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+.menu-vertical li:hover{
+	background-color: black;
+}
+
+.menu-vertical li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 20px;
+}
+
+html{
+    font-size: 14px;
+
+    font-family: "titulo web", sans-serif;
+    background-image: url(https://i.gifer.com/2PD5.gif);
+    color: #FEFEFE;
+    background-size: cover;
+}
+
+a{
+    color: 	#ffa500;
+    font-weight: bolder;
+    text-decoration: none;
+}
+h1{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+/* base.html*/
+.container{
+    margin: 20px;
+    padding: 20px;
+}
+.subforo{
+    margin-top: 20px;
+
+}
+.subforo-tittle{
+    background-color: #049204;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 4px;
+}
+.subforo-row{
+    display: grid;
+    grid-template-columns: 7% 60% 13% 20%;
+}
+.subforo-column{
+    padding: 10px;
+    margin: 4px;
+    border.radius: 5px;
+    background-color: none;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subforo-icon{
+    font-size: 45px;
+}
+
+
+
+
+/*para celulares*/
+@media screen y (max-width: 460){
+    .container{
+        margin: 10px;
+        padding: 10px;
+    }
+    .subforo-row{
+        display: grid;
+        grid-template-columns: 25% 75%;
+        grid-template-rows: 65% 35%;
+    }
+
+}
+/*para tablets*/
+@media screen and (min-width: 460px) and (max-width: 1024px){
+   .container{
+    margin: 15px;
+    padding: 15px;
+   } 
+   .subforo-row{
+    display: grid;
+    grid-template-columns: 10% 60% 10% 20%;
+
+   }
+   .subforo-icon {
+    font-size: 35px;
+   }
+   html{
+    font-size: 16px;
+   }
+   h1{
+    font-size: 18px;
+   }
+}
+
