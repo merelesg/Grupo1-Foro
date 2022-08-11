@@ -27,10 +27,12 @@ background-image: url(https://i.pinimg.com/originals/e9/ef/7a/e9ef7a90f739e74203
 .form__tittle{
     font-size: 2rem;
     margin-bottom: .5em;
+    color: #fff;
 
 }
 .form__paragraph{
     font-weight: 300;
+    color: #fff;
 }
 .form__link{
     font-weight: 400;
@@ -43,12 +45,12 @@ background-image: url(https://i.pinimg.com/originals/e9/ef/7a/e9ef7a90f739e74203
 }
 .form__group{
     position: relative;
-    --color:#000000fa;
+    --color:#f0eeeefa;
 }
 .form__input{
     width: 100%;
     background: none;
-    color: #706c6c;
+    color: #ffffffea;
     font-size: 1rem;
     padding: .6em .3em;
     border: none;
