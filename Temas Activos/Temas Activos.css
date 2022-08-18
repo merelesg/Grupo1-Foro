@@ -35,7 +35,7 @@ nav{
 	text-decoration: none;
 }
 .menu-horizontal > li:hover{
-	background-color:  #ff080860;
+	background-color:  #10bb1060;
 }
 .menu-vertical{
 	position: absolute;
@@ -67,7 +67,7 @@ html{
 }
 
 a{
-    color: 	#b3e00e;
+    color: 	#adcf15;
     font-weight: bolder;
     text-decoration: none;
 }
@@ -85,7 +85,7 @@ h1{
 
 }
 .subforo-tittle{
-    background-color: #068a1c;
+    background-color: #0fb918;
     padding: 5px;
     border-radius: 5px;
     margin: 4px;
