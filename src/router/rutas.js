@@ -1,18 +1,15 @@
 const express = require("express");
 const router = express.Router()
 const path = require("path")
+const controller = require('../controllers/iniciocontroller.js')
 
-router.get("/",(req,res)=>{
-    res.sendFile(path.resolve(__dirname,"../views/index.html"))
-})
+router.get("/",controller.index)
 
-router.get("/login",(req,res)=>{
-    res.sendFile(path.resolve(__dirname,"../views/iniciarSesion.html"))
-})
+router.get("/login", controller.login)
 
-router.get("/registro",(req,res)=>{
-    res.sendFile(path.resolve(__dirname,"../views/registro.html"))
-})
+router.get("/registro", controller.registro)
+
+
 
 
 

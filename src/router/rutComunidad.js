@@ -1,10 +1,9 @@
 const express = require("express");
 const router = express.Router()
 const path = require("path")
+const controller = require('../controllers/temasactivoscontroller.js')
 
 
-router.get("/temasactivos",(req,res)=>{
-    res.sendFile(path.resolve(__dirname,"../views/temasactivos.html"))
-})
+router.get("/temasactivos",controller.temasactivos)
 
 module.exports = router;
