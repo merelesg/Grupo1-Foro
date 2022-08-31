@@ -3,6 +3,7 @@ const path = require("path")
 const rutas = require('./src/router/rutas.js')
 const rutNoticias =require("./src/router/rutNoticias.js")
 const rutComunidad =require("./src/router/rutComunidad.js")
+require("./config/db.js")
 
 /*inicia la app*/
 const app = express();
