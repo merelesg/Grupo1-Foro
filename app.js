@@ -1,14 +1,15 @@
 const express = require("express");
-const app = express();
 const path = require("path")
-const rutas = require('./router/rutas.js')
-const rutNoticias =require("./router/rutNoticias.js")
-const rutComunidad =require("./router/rutComunidad.js")
+const rutas = require('./src/router/rutas.js')
+const rutNoticias =require("./src/router/rutNoticias.js")
+const rutComunidad =require("./src/router/rutComunidad.js")
 
+/*inicia la app*/
+const app = express();
 
 app.set('views', path.join(__dirname, 'views'));
 
-app.use(express.static(path.resolve(__dirname,"../public")));
+app.use(express.static(path.resolve(__dirname,"./public")));
 
 app.use('/', rutas);
 
