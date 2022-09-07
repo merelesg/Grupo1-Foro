@@ -18,6 +18,6 @@ app.use("/noticias",rutNoticias)
 
 app.use("/comunidad",rutComunidad)
 
-app.listen(3000, ()=>{
-    console.log("el servidor esta corriendo en localhost:3000")
+app.listen(3001, ()=>{
+    console.log("el servidor esta corriendo en localhost:3001")
 })
