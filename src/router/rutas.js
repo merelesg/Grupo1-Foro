@@ -7,8 +7,7 @@ router.get("/",controller.index)
 
 router.get("/login", controller.login)
 
-router.get("/registro", controller.registro)
-
+router.get("/register", controller.registro)
 
 
 
